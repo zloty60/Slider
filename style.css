@@ -4,6 +4,19 @@
   margin:0;
 }
 
+body {
+  font-family: 'arial',sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  max-width: 750px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
 #carousel{
     width: 600px;
@@ -28,7 +41,6 @@ li {
     float: left;
     list-style: none;
     position: relative;
-    /*display: block;*/
     color:#fff;
     font-size:80px;
     display: flex;
